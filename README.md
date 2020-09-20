@@ -12,7 +12,6 @@ $ sudo dnf install figlet toilet    [On Fedora 22+]
 ## Some examples
 ```bash
 $ figlet Zanotti
-```
  _____                 _   _   _ 
 |__  /__ _ _ __   ___ | |_| |_(_)
   / // _` | '_ \ / _ \| __| __| |
@@ -20,20 +19,17 @@ $ figlet Zanotti
 /____\__,_|_| |_|\___/ \__|\__|_|
 
 
-```bash
 $ toilet Zanotti
-```                                              
+
  mmmmmm                        m      m      "   
      #"  mmm   m mm    mmm   mm#mm  mm#mm  mmm   
    m#   "   #  #"  #  #" "#    #      #      #   
   m"    m"""#  #   #  #   #    #      #      #   
  ##mmmm "mm"#  #   #  "#m#"    "mm    "mm  mm#mm 
 
-```bash
 # Reading from a file
 $ echo "I wish I could chmod 644 my Girlfriend" >girlfriend.txt
 $ figlet -kp < girlfriend.txt
-```
  ___             _       _       ___                      _      _ 
 |_ _| __      __(_) ___ | |__   |_ _|   ___  ___   _   _ | |  __| |
  | |  \ \ /\ / /| |/ __|| '_ \   | |   / __|/ _ \ | | | || | / _` |
@@ -53,11 +49,9 @@ $ figlet -kp < girlfriend.txt
 |_| |_| |_| \__, |  \____||_||_|   |_||_|  |_|   |_| \___||_| |_| \__,_|
 
 
-```bash
 # Using different fonts (you will need to download the font inside the folder)
 $ figlet -f slant "Sudo I Love You" #or
 $ toilet -f script "Dale Dele"
-```
    _____           __         ____   __                       __  __           
   / ___/__  ______/ /___     /  _/  / /   ____ _   _____      \ \/ /___  __  __
   \__ \/ / / / __  / __ \    / /   / /   / __ \ | / / _ \      \  / __ \/ / / /
@@ -66,7 +60,6 @@ $ toilet -f script "Dale Dele"
 
 
 For more options, see the manual of the tools:
-```bash
 $ man figlet
 $ man toilet
 ```
