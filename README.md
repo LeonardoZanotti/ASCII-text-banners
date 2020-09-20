@@ -1,3 +1,4 @@
+```bash
               ██                                            
  ████████     ██               ████                         
  ████████     ██               ████                  ██     
@@ -14,6 +15,7 @@
                       █░  ▒██                               
                       ██████▓                               
                       ▒████▒  
+```
 
 # ASCII-text-banners
 Zanotti banners generator - create ASCII text banners in linux terminal.
